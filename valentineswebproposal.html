@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="resources/css/styles.css">
+</head>
+<body>
+    <div class="video-container">
+        <video id="main-video" controls autoplay>
+            <source src="resources/animation/final_sprites/Here is some phool for my phool!.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video id="next-video-yes" class="hidden">
+            <source src="resources/animation/final_sprites/yes_celebration.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video id="next-video-no" class="hidden">
+            <source src="resources/animation/final_sprites/gyanesh_crying.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="overlay" class="overlay hidden">
+            <button id="yes-btn">Yes</button>
+            <button id="no-btn">No</button>
+        </div>
+    </div>
+    <script src="resources/js/script.js"></script>
+</body>
+</html>
